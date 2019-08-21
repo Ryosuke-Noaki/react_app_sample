@@ -7,7 +7,6 @@ import FindForm from './memo/FindForm';
 import DelForm from './memo/DelForm'; 
 
 // App Component
-
 class App extends Component {
   td = {
     width: "250px"
@@ -27,6 +26,7 @@ class App extends Component {
           <td style={this.td}><FindForm/></td>
           <td style={this.td}><DelForm/></td>
         </tr></tbody></table>
+        <Memo />
       </div>
     );
   }
