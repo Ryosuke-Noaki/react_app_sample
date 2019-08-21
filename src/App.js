@@ -5,6 +5,7 @@ import Memo from './memo/Memo';
 import AddForm from './memo/AddForm';
 import FindForm from './memo/FindForm';
 import DelForm from './memo/DelForm'; 
+import PersistForm from './memo/PersistForm';
 
 // App Component
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
         <table><tbody><tr>
           <td style={this.td}><FindForm/></td>
           <td style={this.td}><DelForm/></td>
+          <td style={this.td}><PersistForm/></td>
         </tr></tbody></table>
         <Memo />
       </div>
